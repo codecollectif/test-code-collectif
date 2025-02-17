@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Code Collectif
 email: geraldine.lonchay@gmail.com
-baseurl: "test-jekyll-site/" # the subpath of your site, e.g. /blog
-url: "htpps://codecollectif.github.io/test-jekyll-site" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "test-code-collectif" # the subpath of your site, e.g. /blog
+url: "htpps://codecollectif.github.io/test-code-collectif" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
