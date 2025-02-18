@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <header class="header-container">
+        <img class="logo" src="{{ "/assets/logo.jpg" | relative_url }}" alt="">
+        <h1>{{ site.title }}</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="{{ "/projets.html" | relative_url }}">Projets</a></li>
+                <li><a href="#">Activités</a></li>
+                <li><a href="#">Partenaires</a></li>
+                <li><a href="https://www.helloasso.com/associations/code-collectif">Adhérer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer class="footer-container">
+        <p class="footer-text">&copy; 2025 code collectif</p>
+        <p class="footer-link">Site hébergé sur un VPS IKOULA <a target="_blank" href="https://www.ikoula.com/fr">
+            <img src="https://www.ikoula.com/img/hosted_by_ikoula_150_blanc.png" alt="site hebergeur">
+        </a></p>
+        <p class="footer-link2"><a href="#">Nous contacter</a></p>
+    </footer>
+</body>
+</html>
